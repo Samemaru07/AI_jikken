@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ガンプラ拡張</title>
+    <meta name="description" content="君のガンプラをかっこよくしよう">
+    <!--<link rel="stylesheet" href="../static/css/reset.css">!-->
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<style>
+    body {
+        /* font-family: Arial, sans-serif; */
+        text-align: center;
+        margin: 20px;
+    }
+
+    input[type="file"] {
+        margin: 20px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<body>
+    <h1>キミのファフナーをかっこよくしよう！</h1>
+
+    <article>
+        <div class="logo">
+            <img src="../static/img/総士&一騎.jpg" alt="ブキヨーだなお前" class="logo">
+        </div>
+
+        <section>
+            <video id="myVideo" controls poster="/static/img/スクリーンショット 2025-01-16 212906.png">
+                <source src="{{ url_for('static', filename='video/マークニヒト.mp4')}}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="動画">
+                <p>☝実際の手順</p>
+            </div>
+
+            <h2>手順1</h2>
+            <h3>ファフナーを撮影しよう！</h3>
+            <p>背景がファフナーと区別しやすいようになっていると、画像切り抜きの成功が高まるよ！<br>
+                <br>
+            </p>
+        </section>
+
+        <section>
+            <h2>手順2</h2>
+            <h3>画像をアップロードしよう</h3>
+
+            <p>画像を送信！</p>
+            <form action="/upload" method="POST" enctype="multipart/form-data" class="imgup">
+                <input type="file" name="image" accept="image/*" required>
+                <button type="submit">Upload</button>
+            </form>
+            <br><br>
+            <p>以下の手順でAIが画像を編集してくれます！</p>
+            <p>
+            <ol>
+                <li>1.ファフナーを切り抜き</li>
+                <li>2.切り抜いたファフナーをダウンロード</li>
+            </ol>
+            </p>
+            <br>
+        </section>
+
+        <section>
+            <h2>完成！！</h2>
+            <p>ダウンロードして保存しよう！</p>
+            <h4>君のファフナーはかっこよくなったかな？</h4>
+            <br><br><br><br>
+        </section>
+    </article>
+
+    <footer>
+        <h4><a href="/sns">各snsはこちら</a></h4>
+    </footer>
+
+    <script src="../static/js/script.js"></script>
+</body>
+
+</html>

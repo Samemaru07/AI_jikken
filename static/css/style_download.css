@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/* 背景とフォント設定 */
+body {
+    background-color: #f0f8ff;
+    font-family: "Sawarabi Gothic", "游ゴシック体", "YuGothic", "Helvetica", "sans-serif";
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 画像コンテナ */
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 90%; /* コンテナ幅の最大値 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+/* 画像設定 */
+img {
+    max-width: 80%; /* 親要素内で画像をリサイズ */
+    height: auto; /* 縦横比を保持 */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ダウンロードリンク */
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

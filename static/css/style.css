@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body {
+    background-color: #f0f8ff;
+    font-family: "Sawarabi Gothic", "游ゴシック体", "YuGothic", "Helvetica", "sans-serif";
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    background-color: rgba(112, 128, 144, 0.4);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.logo {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: darkgray;
+}
+
+ol {
+    width: 400px;
+    margin: 0 auto;
+}
+
+li {
+    display: block;
+    background-color: antiquewhite;
+    color: #2f4f4f;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 100px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.imgup {
+    background-color: #89bece;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: burlywood;
+}
+
+.動画 {
+    font-size: 15px;
+}
+
+video {
+    text-align: center;
+    width: 1100px;
+    height: auto;
+}
+
+h2 {
+    background: rgba(112, 128, 144, 0.4);
+}
+
+h4 {
+    font-size: 20px;
+    color: rgb(240, 128, 128);
+}

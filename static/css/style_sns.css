@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body
+{
+    text-align: center;
+    font-family: "Sawarabi Gothic", "游ゴシック体", "YuGothic", "Helvetica", "sans-serif";
+    background-color: azure;
+}
+
+h1
+{
+    display: block;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+p
+{
+    display: block;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+li
+{
+    display: block;
+    background-color: mistyrose;
+    padding: 30px;
+    margin: auto 50px;
+}
