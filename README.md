@@ -2,7 +2,7 @@
 
 もしよかったらどんな風な構成にしたのか、見ていってください^^
 
-「授業での発表用スライド」https://docs.google.com/presentation/d/1ONwJpcwzxvDeRqZSvUrhhQFhokq2NOKz/edit?usp=sharing&ouid=100011050859947655372&rtpof=true&sd=true
+「授業での発表用スライド」https://docs.google.com/presentation/d/1eAWdJkyjWCb-1hEIeDPRlej0ZJ1vj1md/edit?usp=sharing&ouid=100011050859947655372&rtpof=true&sd=true
 
 「解説&語っている動画」https://youtu.be/t17QIVY6MhE
 
